@@ -1,0 +1,174 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(188,17,173), rgb(249,59,113), rgb(215,31,19));
+    height: 10000px;
+    margin: 0px;
+}
+
+/* Navbar Container */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(48, 5, 5);
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.single {
+    flex: 1;
+}
+
+.double {
+    flex: 2;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 18px;
+    color: rgb(255, 174, 174);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbttn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(255, 174, 174);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Adds a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbttn {
+    background-color: rgb(87, 10, 10);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(48, 5, 5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+    z-index: 1;
+    right: 8px;
+}
+
+#dropdown-button {
+    height: 45px;
+    width: auto;
+}
+
+#home-icon {
+    height: 45px;
+    width: auto;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: rgb(255, 174, 174);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Adds a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(87, 10, 10);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* first two Flex blocks */
+.opener {
+    padding: 15px;
+    width: 1400px;
+    background: rgba(255, 56, 189, 0.144);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 2%;
+    border-color: rgb(117, 0, 0);
+    font-family: Arial;
+    font-size: 18px;
+    color: rgb(241, 182, 182);
+    text-shadow: 5px 5px 5px rgb(49, 2, 43);
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+#floated {
+    float: left;
+    width: 160px;
+    margin: 0 12px 12px 0;
+}
+
+#clothed,
+#nakey {
+    height: 200px;
+    width: auto;
+}
+
+.blank {
+    height: 20px;
+}
+
+.name {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 700;
+    text-shadow: 8px 8px 10px rgb(49, 2, 43);
+    color: rgb(255, 211, 211);
+}
+
+.family {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+#fam-img {
+    height: 60px;
+    width: 60px;
+}
+
+.scarlet,
+.albus,
+.azel,
+.briton {
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(117, 0, 0);
+    border-radius: 5%;
+    width: 650px;
+    padding: 8px;
+    margin-top: 20px;
+    color: rgb(241, 182, 182);
+    text-shadow: 5px 5px 5px rgb(49, 2, 43);
+    background-color: rgba(0, 0, 0, 0.185);
+    font-size: 18px;
+}
