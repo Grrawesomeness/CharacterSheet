@@ -197,3 +197,26 @@ body {
     background-color: rgba(0, 0, 0, 0.185);
     font-size: 18px;
 }
+
+.beldok-container {
+    margin: auto;
+    padding: 10px;
+    max-width: 1400px;
+}
+
+.beldok {
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(117, 0, 0);
+    border-radius: 5%;
+    color: rgb(241, 182, 182);
+    text-shadow: 5px 5px 5px rgb(49, 2, 43);
+    background-color: rgba(0, 0, 0, 0.185);
+    font-size: 18px;
+}
+
+#beldok-img {
+    height: 60px;
+    width: 60px;
+}
