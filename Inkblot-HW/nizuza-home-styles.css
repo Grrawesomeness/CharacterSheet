@@ -1,6 +1,5 @@
 body {
     background-image: linear-gradient(to bottom right, rgb(188,17,173), rgb(249,59,113), rgb(215,31,19));
-    height: 10000px;
     margin: 0px;
 }
 
@@ -138,6 +137,34 @@ body {
     text-shadow: 8px 8px 10px rgb(49, 2, 43);
     color: rgb(255, 211, 211);
     text-align: center;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#tool-img {
+    height: 60px;
+    width: 60px;
+}
+
+.book ,
+.kit ,
+.bow {
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(117, 0, 0);
+    border-radius: 5%;
+    max-width: 500px;
+    padding: 8px;
+    margin-top: 20px;
+    color: rgb(241, 182, 182);
+    text-shadow: 5px 5px 5px rgb(49, 2, 43);
+    background-color: rgba(0, 0, 0, 0.185);
+    font-size: 18px;
 }
 
 .family {
