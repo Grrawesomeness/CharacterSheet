@@ -85,7 +85,7 @@ body {
     text-align: left;
 }
 
-/* Adds a grey background color to dropdown links on hover */
+/* Adds a red background color to dropdown links on hover */
 .dropdown-content a:hover {
     background-color: rgb(87, 10, 10);
 }
